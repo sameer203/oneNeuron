@@ -4,7 +4,6 @@ from utils.all_utils import prepare_data
 import numpy as np
 import pandas as pd
 
-
 def main(data, eta, epochs,filename, plotfilename):
 
   
