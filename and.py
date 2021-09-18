@@ -1,10 +1,9 @@
 from utils.model import Perceptron
+from utils.all_utils import save_model, save_plot
 from utils.all_utils import prepare_data
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import joblib
-from matplotlib.colors import ListedColormap
+
 
 AND = {
     "x1" : [0,0,1,1],
@@ -12,6 +11,8 @@ AND = {
     "y" : [0,0,0,1],
 }
 df = pd.DataFrame(AND)
+
+print(df)
 
 X, y = prepare_data(df)
 
@@ -22,3 +23,6 @@ model = Perceptron(eta=ETA, epochs=EPOCHS)
 model.fit(X, y)
 
 _ = model.total_loss()
+
+save_model(model, filename="and.model")
+save_plot(df, "and.png", model)
