@@ -37,7 +37,7 @@ if __name__ == "__main__": # << entry point
     }
 
     ETA = 0.3 # 0 and 1
-    EPOCHS = 100
+    EPOCHS = 10
 
     try:
         logging.info("\n>>>>>>> Starting training <<<<<<<")
