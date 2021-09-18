@@ -3,14 +3,20 @@ from utils.all_utils import save_model, save_plot
 from utils.all_utils import prepare_data
 import numpy as np
 import pandas as pd
+import logging
+import os
 
+logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
+log_dir = "logs"
+os.makedirs(log_dir,exist_ok=True)
+logging.basicConfig(filename=os.path.join(log_dir, "running_logs"), level=logging.INFO, format=logging_str, filemode="a")
 
 def main(data, eta, epochs,filename, plotfilename):
 
   
     df = pd.DataFrame(data)
 
-    print(df)
+    logging.info(f"Thi is the actual Dataframe{df}")
 
     X, y = prepare_data(df)
 
@@ -31,6 +37,12 @@ if __name__ == "__main__": # << entry point
     }
 
     ETA = 0.3 # 0 and 1
-    EPOCHS = 10
+    EPOCHS = 100
 
-    main(data=OR, eta=ETA, epochs=EPOCHS, filename="or.model", plotfilename="or.png")
+    try:
+        logging.info("\n>>>>>>> Starting training <<<<<<<")
+        main(data=OR, eta=ETA, epochs=EPOCHS, filename="or.model", plotfilename="or.png")
+        logging.info(">>>>>>> training Done sucessfully <<<<<<<\n")
+    except Exception as e:
+        logging.exception(e)
+        raise(e)
