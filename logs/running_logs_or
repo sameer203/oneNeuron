@@ -1,0 +1,522 @@
+[2021-09-20 12:06:49,366: INFO: or_new: 
+>>>>>>> Starting training <<<<<<<]
+[2021-09-20 12:06:49,373: INFO: or_new: Thi is the actual Dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1]
+[2021-09-20 12:06:49,373: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:06:49,374: INFO: perceptron: initial weights before training: 
+[-7.66236551e-05  8.55418133e-05 -8.81587802e-05]]
+[2021-09-20 12:06:49,375: INFO: perceptron: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]]
+[2021-09-20 12:06:49,377: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,377: INFO: perceptron: for epoch: 0]
+[2021-09-20 12:06:49,377: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,378: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:06:49,379: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,379: INFO: perceptron: updated weights after epoch:
+0/10 : 
+[-7.66236551e-05  8.55418133e-05  2.99911841e-01]]
+[2021-09-20 12:06:49,379: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,379: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,379: INFO: perceptron: for epoch: 1]
+[2021-09-20 12:06:49,379: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,379: INFO: perceptron: predicted value after forward pass: 
+[0 0 0 0]]
+[2021-09-20 12:06:49,380: INFO: perceptron: error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,380: INFO: perceptron: updated weights after epoch:
+1/10 : 
+[ 0.59992338  0.60008554 -0.60008816]]
+[2021-09-20 12:06:49,380: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,380: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,380: INFO: perceptron: for epoch: 2]
+[2021-09-20 12:06:49,380: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,381: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:06:49,382: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,382: INFO: perceptron: updated weights after epoch:
+2/10 : 
+[ 0.59992338  0.60008554 -0.30008816]]
+[2021-09-20 12:06:49,382: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,382: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,382: INFO: perceptron: for epoch: 3]
+[2021-09-20 12:06:49,382: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,382: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:06:49,383: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,383: INFO: perceptron: updated weights after epoch:
+3/10 : 
+[ 5.99923376e-01  6.00085542e-01 -8.81587802e-05]]
+[2021-09-20 12:06:49,383: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,383: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,383: INFO: perceptron: for epoch: 4]
+[2021-09-20 12:06:49,383: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,383: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:06:49,384: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,384: INFO: perceptron: updated weights after epoch:
+4/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,384: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,384: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,384: INFO: perceptron: for epoch: 5]
+[2021-09-20 12:06:49,384: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,385: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:06:49,385: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,385: INFO: perceptron: updated weights after epoch:
+5/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,386: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,386: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,386: INFO: perceptron: for epoch: 6]
+[2021-09-20 12:06:49,386: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,386: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:06:49,387: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,388: INFO: perceptron: updated weights after epoch:
+6/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,388: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,388: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,388: INFO: perceptron: for epoch: 7]
+[2021-09-20 12:06:49,388: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,389: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:06:49,389: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,390: INFO: perceptron: updated weights after epoch:
+7/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,390: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,390: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,390: INFO: perceptron: for epoch: 8]
+[2021-09-20 12:06:49,390: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,391: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:06:49,391: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,392: INFO: perceptron: updated weights after epoch:
+8/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,392: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,392: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,392: INFO: perceptron: for epoch: 9]
+[2021-09-20 12:06:49,393: INFO: perceptron: --------------------]
+[2021-09-20 12:06:49,393: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:06:49,394: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:06:49,394: INFO: perceptron: updated weights after epoch:
+9/10 : 
+[0.59992338 0.60008554 0.29991184]]
+[2021-09-20 12:06:49,394: INFO: perceptron: ##################################################]
+[2021-09-20 12:06:49,395: INFO: perceptron: total loss: 0]
+[2021-09-20 12:06:49,395: INFO: all_utils: Saving the trained model]
+[2021-09-20 12:06:49,399: INFO: all_utils: saved the trained model at ]
+[2021-09-20 12:06:49,399: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:06:49,400: INFO: all_utils: Creating the base plot]
+[2021-09-20 12:06:49,690: INFO: all_utils: plotting the decision regions]
+[2021-09-20 12:06:49,878: INFO: all_utils: saving the plot at]
+[2021-09-20 12:06:49,878: INFO: or_new: >>>>>>> training Done sucessfully <<<<<<<
+]
+[2021-09-20 12:08:00,937: INFO: or_new: 
+>>>>>>> Starting training <<<<<<<]
+[2021-09-20 12:08:00,944: INFO: or_new: Thi is the actual Dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1]
+[2021-09-20 12:08:00,944: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:08:00,945: INFO: perceptron: initial weights before training: 
+[ 1.30703134e-04  7.35762622e-05 -1.50270650e-05]]
+[2021-09-20 12:08:00,946: INFO: perceptron: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]]
+[2021-09-20 12:08:00,948: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,948: INFO: perceptron: for epoch: 0]
+[2021-09-20 12:08:00,948: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,948: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:08:00,949: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,949: INFO: perceptron: updated weights after epoch:
+0/10 : 
+[1.30703134e-04 7.35762622e-05 2.99984973e-01]]
+[2021-09-20 12:08:00,950: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,950: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,950: INFO: perceptron: for epoch: 1]
+[2021-09-20 12:08:00,950: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,950: INFO: perceptron: predicted value after forward pass: 
+[0 0 0 0]]
+[2021-09-20 12:08:00,950: INFO: perceptron: error: 
+0    0
+1    1
+2    1
+3    1
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,951: INFO: perceptron: updated weights after epoch:
+1/10 : 
+[ 0.6001307   0.60007358 -0.60001503]]
+[2021-09-20 12:08:00,951: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,951: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,951: INFO: perceptron: for epoch: 2]
+[2021-09-20 12:08:00,951: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,952: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:08:00,952: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,953: INFO: perceptron: updated weights after epoch:
+2/10 : 
+[ 0.6001307   0.60007358 -0.30001503]]
+[2021-09-20 12:08:00,953: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,953: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,953: INFO: perceptron: for epoch: 3]
+[2021-09-20 12:08:00,953: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,953: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:08:00,954: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,954: INFO: perceptron: updated weights after epoch:
+3/10 : 
+[ 6.00130703e-01  6.00073576e-01 -1.50270650e-05]]
+[2021-09-20 12:08:00,954: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,954: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,954: INFO: perceptron: for epoch: 4]
+[2021-09-20 12:08:00,954: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,954: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:08:00,955: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,955: INFO: perceptron: updated weights after epoch:
+4/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,955: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,955: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,955: INFO: perceptron: for epoch: 5]
+[2021-09-20 12:08:00,955: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,955: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:08:00,956: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,956: INFO: perceptron: updated weights after epoch:
+5/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,956: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,956: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,956: INFO: perceptron: for epoch: 6]
+[2021-09-20 12:08:00,956: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,956: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:08:00,958: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,958: INFO: perceptron: updated weights after epoch:
+6/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,958: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,958: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,958: INFO: perceptron: for epoch: 7]
+[2021-09-20 12:08:00,958: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,959: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:08:00,959: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,959: INFO: perceptron: updated weights after epoch:
+7/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,959: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,959: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,959: INFO: perceptron: for epoch: 8]
+[2021-09-20 12:08:00,959: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,959: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:08:00,960: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,960: INFO: perceptron: updated weights after epoch:
+8/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,960: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,960: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,960: INFO: perceptron: for epoch: 9]
+[2021-09-20 12:08:00,960: INFO: perceptron: --------------------]
+[2021-09-20 12:08:00,961: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:08:00,961: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:08:00,961: INFO: perceptron: updated weights after epoch:
+9/10 : 
+[0.6001307  0.60007358 0.29998497]]
+[2021-09-20 12:08:00,961: INFO: perceptron: ##################################################]
+[2021-09-20 12:08:00,963: INFO: perceptron: total loss: 0]
+[2021-09-20 12:08:00,963: INFO: all_utils: Saving the trained model]
+[2021-09-20 12:08:00,967: INFO: all_utils: saved the trained model at ]
+[2021-09-20 12:08:00,967: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:08:00,968: INFO: all_utils: Creating the base plot]
+[2021-09-20 12:08:01,256: INFO: all_utils: plotting the decision regions]
+[2021-09-20 12:08:01,455: INFO: all_utils: saving the plot at]
+[2021-09-20 12:08:01,455: INFO: or_new: >>>>>>> training Done sucessfully <<<<<<<
+]
+[2021-09-20 12:14:04,481: INFO: or_new: 
+>>>>>>> Starting training <<<<<<<]
+[2021-09-20 12:14:04,487: INFO: or_new: Thi is the actual Dataframe   x1  x2  y
+0   0   0  0
+1   0   1  1
+2   1   0  1
+3   1   1  1]
+[2021-09-20 12:14:04,487: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:14:04,489: INFO: perceptron: initial weights before training: 
+[4.77991164e-05 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,489: INFO: perceptron: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]]
+[2021-09-20 12:14:04,491: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,491: INFO: perceptron: for epoch: 0]
+[2021-09-20 12:14:04,492: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,492: INFO: perceptron: predicted value after forward pass: 
+[0 1 0 1]]
+[2021-09-20 12:14:04,493: INFO: perceptron: error: 
+0    0
+1    0
+2    1
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,493: INFO: perceptron: updated weights after epoch:
+0/10 : 
+[ 3.00047799e-01  2.27940467e-04 -2.99893114e-01]]
+[2021-09-20 12:14:04,493: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,493: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,493: INFO: perceptron: for epoch: 1]
+[2021-09-20 12:14:04,493: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,494: INFO: perceptron: predicted value after forward pass: 
+[1 1 1 1]]
+[2021-09-20 12:14:04,494: INFO: perceptron: error: 
+0   -1
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,494: INFO: perceptron: updated weights after epoch:
+1/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,495: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,495: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,495: INFO: perceptron: for epoch: 2]
+[2021-09-20 12:14:04,495: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,495: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,495: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,496: INFO: perceptron: updated weights after epoch:
+2/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,496: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,496: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,496: INFO: perceptron: for epoch: 3]
+[2021-09-20 12:14:04,496: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,496: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,497: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,497: INFO: perceptron: updated weights after epoch:
+3/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,497: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,497: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,497: INFO: perceptron: for epoch: 4]
+[2021-09-20 12:14:04,497: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,497: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,498: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,498: INFO: perceptron: updated weights after epoch:
+4/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,498: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,498: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,498: INFO: perceptron: for epoch: 5]
+[2021-09-20 12:14:04,498: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,499: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,499: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,499: INFO: perceptron: updated weights after epoch:
+5/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,499: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,499: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,500: INFO: perceptron: for epoch: 6]
+[2021-09-20 12:14:04,500: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,500: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,500: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,501: INFO: perceptron: updated weights after epoch:
+6/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,501: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,501: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,501: INFO: perceptron: for epoch: 7]
+[2021-09-20 12:14:04,501: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,501: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,501: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,502: INFO: perceptron: updated weights after epoch:
+7/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,502: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,502: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,502: INFO: perceptron: for epoch: 8]
+[2021-09-20 12:14:04,502: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,502: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,503: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,503: INFO: perceptron: updated weights after epoch:
+8/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,503: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,503: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,503: INFO: perceptron: for epoch: 9]
+[2021-09-20 12:14:04,503: INFO: perceptron: --------------------]
+[2021-09-20 12:14:04,503: INFO: perceptron: predicted value after forward pass: 
+[0 1 1 1]]
+[2021-09-20 12:14:04,504: INFO: perceptron: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64]
+[2021-09-20 12:14:04,504: INFO: perceptron: updated weights after epoch:
+9/10 : 
+[3.00047799e-01 2.27940467e-04 1.06886035e-04]]
+[2021-09-20 12:14:04,504: INFO: perceptron: ##################################################]
+[2021-09-20 12:14:04,505: INFO: perceptron: total loss: 0]
+[2021-09-20 12:14:04,505: INFO: all_utils: Saving the trained model]
+[2021-09-20 12:14:04,510: INFO: all_utils: saved the trained model at ]
+[2021-09-20 12:14:04,510: INFO: all_utils: Preparing the data by segregating the dependant variables]
+[2021-09-20 12:14:04,511: INFO: all_utils: Creating the base plot]
+[2021-09-20 12:14:04,801: INFO: all_utils: plotting the decision regions]
+[2021-09-20 12:14:04,981: INFO: all_utils: saving the plot at]
+[2021-09-20 12:14:04,981: INFO: or_new: >>>>>>> training Done sucessfully <<<<<<<
+]
